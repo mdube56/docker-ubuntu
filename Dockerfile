@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Honglin Feng <hfeng@tutum.co> 
+MAINTAINER mdube mdube <md@humanity.net> 
 
 # Install packages
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install openssh-server pwgen
